@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(53, 53, 53, 0.719);
+    color: white;
+}
+header{
+    border-bottom: 2px solid black;
+}
+.wrapper{
+    background-color: #212529;
+}
+.header-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-control{
+    border-radius: 0px;
+}
+.btn-secondary{
+    border-radius: 0px;
+}
+.main-wrapper{
+    height: 550px;
+}
+.info-profile{
+    margin: 25px;
+}
+.logo-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.logoimg{
+    width: 100%;
+    border-radius: 90%;
+}
+.name{
+    margin-left: 10px;
+}
